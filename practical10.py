@@ -2,8 +2,8 @@
 import img2pdf
 from PIL import Image
 import os
-img_path = 'D:sm6result.jpg'
-pdf_path = 'D:sm6result.pdf'
+img_path = 'D:sem6result.jpg'
+pdf_path = 'D:sem6result.pdf'
 image = Image.open(img_path)
 pdf_bytes = img2pdf.convert(image.filename)
 file = open(pdf_path, "wb")
